@@ -1,0 +1,232 @@
+*{ /*for all*/
+    padding: 0;
+    margin: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{ /*for hero/header*/
+   height: 100vh;
+   width: 100%;
+   background-color: #191919;
+   background-size: 50%;
+   background-position: center;
+}
+
+nav{ /*navbar*/
+    display: flex; /* to put the nav list side by side*/
+    align-items: center;
+    justify-content: space-between; /*to adjust the space to get space even*/
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #000;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+nav h2{
+    padding: 10px 25px;
+    margin-bottom: 0px;
+}
+
+h5{
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.contact{ /*contacts*/
+    background: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{ /*adjust the title size & font*/
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{ /*container for all infos*/
+    background: rgb(74, 36, 36);
+    padding: 0 20px;
+    margin: 0 10px;
+    width: 335px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.card i{
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px !important;
+    transition: 0.3s linear;
+    margin: 25px 0;
+    color: #101010;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #f9004d;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card i:hover{ /*animation*/
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6); /*making it bigger when hovering over it*/
+    cursor: pointer;
+}
+
+footer{ /*footer section*/
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+footer p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex; /*put the social medias side to side*/
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*making the items on the center of the circle*/
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:500px) {
+    
+    .contact{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+    
+}
+
