@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="index3.css"> <!--call index3  css file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!--for icons used-->
+</head>
+<body>
+
+    <div class="hero">
+<!--Header & Nav-->
+    <nav>
+        <h2 class="logo"><span>Wan Afif</span></h2>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="education.html"> Education </a></li>
+            <li><a href="timetable.html"> Timetable </a></li>
+            <li><a href="favorite.html">  Favorite </a></li>
+            <li><a href="contact.html">   Contact  </a></li>
+        </ul>
+        <a href="index.html" class="btn">About Me</a>
+    </nav>
+<!--Info About Me-->
+    <section class="about">
+        <div class="main">
+            <img src="image and pdf/afif2.jpg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer & Designer</h5>
+                <p>I am a student of IIUM, Kuliyyah of ICT, majoring in Computer Science. Born in Subang Jaya Medical Center,
+                    I am 20 years old with the birth date of 19th of August 2002. Having set my ambition to pursuing study
+                    specialized in Software Engineering, I am planning to be a Software Engineer.</p>
+            </div>
+        </div>
+    </section>
+</div> <!--Close division for hero-->
+
+<!--My Skills-->
+<div class="service">
+    <div class="title"> <!--Title for second page-->
+        <h2>My Skills</h2>
+    </div>
+
+    <!--Advantages of me Section-->
+    <div class="box">
+        <div class="card">
+            <i class="fas fa-user"></i>
+            <h5>Communication</h5>
+            <div class="pra">
+                <p>I can communicate with many people and help people around my surroundings to communicate better with each other.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-people-group"></i>
+            <h5>Teamwork</h5>
+            <div class="pra">
+                <p>I can help others to achieve our team goals and missions, and help with team-bonding process.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-clock"></i>
+            <h5>Time Management</h5>
+            <div class="pra">
+                <p>I can manage my time and do work wisely.</p>
+            </div>
+        </div>
+     </div>
+</div> <!--close div service-->
+
+<!--Contact Me-->
+<div class="contact">
+    <p>My Contact</p>
+    <a class="button-two" href="contact.html">Contact</a> <!--button-two for second button-->
+</div>
+
+<!--Footer-->
+<footer>
+    <p>Wan Afif</p>
+    <p>2115737</p>
+    <p>Webtech Section 6</p>
+    <div class="social">
+        <a href="https://www.facebook.com/wan.afif.18"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/wnafif/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/wan-afif-najmuddin-wan-mohd-syukri-583662222/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p class="end">Wan Afif</p>
+</footer> <!--bottom of the page-->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<div class="hero">
+        <!--Header & Nav-->
+            <nav>
+                <h2 class="logo"><span>Wan Afif</span></h2>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="education.html"> Education </a></li>
+                    <li><a href="timetable.html"> Timetable </a></li>
+                    <li><a href="favorite.html">  Favorite </a></li>
+                    <li><a href="contact.html">   Contact  </a></li>
+                </ul>
+                <a href="index.html" class="btn">About Me</a>
+            </nav>
+            <!--contact section-->
+    <div class="contact">
+        <div class="title">
+            <h2>Contacts</h2>
+        </div>
+    
+        <div class="box">
+            <div class="card">
+                <i class="card-icon far fa-envelope"></i>
+                <h5>wanafif80@gmail.com</h5>
+            </div>
+    
+            <div class="card">
+                <i class="card-icon fas fa-phone"></i>            
+                <h5>+60146415874</h5>
+            </div>
+    
+            <div class="card">
+                <i class="card-icon fas fa-map-marker-alt"></i>            
+                <h5>Shah Alam,Selangor</h5>
+            </div>
+         </div>
+    </div>
+
+    <!--footer-->
+<footer>
+    <p>Wan Afif</p>
+    <p>2115737</p>
+    <p>Webtech Section 6</p>
+    <div class="social">
+        <a href="https://www.facebook.com/wan.afif.18"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/wnafif/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/wan-afif-583662222/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p class="end">Wan Afif</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="education3.css"> <!--call css file of education3-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!--for icons used-->
+</head>
+<body>
+<div class="hero">
+    <nav> <!--nav bar & header-->
+        <h2 class="logo"><span>Wan Afif</span></h2>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="education.html"> Education </a></li>
+            <li><a href="timetable.html"> Timetable </a></li>
+            <li><a href="favorite.html">  Favorite </a></li>
+            <li><a href="contact.html">   Contact  </a></li>
+        </ul>
+        <a href="index.html" class="btn">About Me</a>
+    </nav>
+<!--Education Background-->
+<section class="edu-background">
+    <div class="text-box">
+        <h1>My Educational Background</h1>
+        <p>Major in Computer Science under the Kuliyyah of ICT in IIUM.</p>
+        <a href="http://iium.edu.my" class="button">IIUM</a>
+    </div>
+</section>
+</div>
+ <!--resume section-->
+<section class="resume">
+    <div class="about-me">
+        <img src="image and pdf/afif cfs.jpg">
+        <div class="about-text">
+            <h1>My Resume</h1>
+            <p>Details of me and my journey</p>
+            <p>Click the link down below</p>
+            <a href="Wan Afif Najmuddin CV.pdf" class="button2">Download CV</a>
+        </div>
+    </div>
+</section>
+
+<!--results of education-->
+<div class="results">
+    <div class="title">
+        <h2>Results</h2>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <i class="fa-solid fa-file-pen"></i> <!--icons using the font awesome website-->
+            <h5>SPM</h5>
+            <div class="pra">
+                <p>7A 2B</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-pen-to-square"></i>        
+            <h5>Foundation</h5>
+            <div class="pra">
+                <p>CGPA 3.69</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-sharp fa-solid fa-user-pen"></i>
+            <h5>Degree</h5>
+            <div class="pra">
+                <p>CGPA 3.75</p>
+            </div>
+        </div>
+     </div>
+</div>
+<!--footer section-->
+<footer>
+    <p>Wan Afif</p>
+    <p>2115737</p>
+    <p>Webtech Section 6</p>
+    <div class="social">
+        <a href="https://www.facebook.com/wan.afif.18"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/wnafif/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/wan-afif-najmuddin-wan-mohd-syukri-583662222/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p class="end">Wan Afif</p>
+</footer>
+</body>
+</html>
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+   height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(image\ and\ pdf/uia.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #000;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+nav h2{
+    padding: 10px 25px;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+nav .fa{
+    display: none;
+}
+
+.resume{
+    background-color: #101010;
+}
+
+.about-me{
+    width: 80%;
+    height: 330px;
+    background-color: rgb(101, 72, 72);
+    border-radius: 40px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -7% auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-me img{
+    height: 250px;
+    border-radius: 30px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.about-text h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    color: #191616;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 10px auto 10px auto;
+}
+
+.about-text button{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    background-color: #262525;
+}
+
+.button2{
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    border: 1px solid aqua;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #f9004d;
+    position: relative;
+    cursor: pointer;
+}
+
+.button2:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+.results{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{ /*for contacts*/
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 55px 0px;
+    color: #f9004d;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #f9004d;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #6c6363;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+footer p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+   height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(image\ and\ pdf/background-image.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #000;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+nav h2{
+    padding: 10px 25px;
+}
+
+h5{
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.fav{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{ /*for contacts*/
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 55px 0px;
+    color: #f9004d;
+}
+
+h5{
+    color: lightgreen;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: bisque;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card1{
+    background-image: url(game.jpg);
+    background-size: cover;
+}
+
+.card2{
+    background-image: url(burger_1.jpg);
+    background-size: cover;
+}
+
+.card3{
+    background-image: url(travel.jpeg);
+    background-size: cover;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #534c4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+footer p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite</title>
+    <link rel="stylesheet" href="favorite.css"> <!--calling favorite css file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!--calling icons-->
+</head>
+<body>
+
+    <div class="hero">
+<!--Header & Nav-->
+    <nav>
+        <h2 class="logo"><span>Wan Afif</span></h2>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="education.html"> Education </a></li>
+            <li><a href="timetable.html"> Timetable </a></li>
+            <li><a href="favorite.html">  Favorite </a></li>
+            <li><a href="contact.html">   Contact  </a></li>
+        </ul>
+        <a href="index.html" class="btn">About Me</a>
+    </nav>
+<!--Info About Me-->
+    <section class="about">
+    </section>
+    </div>
+
+<!--Favorite Things of Mine-->
+<div class="fav">
+    <div class="title">
+        <h2>My <span>Favorite</span></h2> <!--title-->
+    </div>
+
+    <div class="box">
+        <div class="card card1">
+            <i class="fa-solid fa-headset"></i>
+            <h5>Gaming</h5>
+            <div class="pra">
+                <p>When I have leisure time and<br>trying to have fun.</p>
+            </div>
+        </div>
+
+        <div class="card card2">
+            <i class="fa-solid fa-burger"></i>
+            <h5>Burger</h5>
+            <div class="pra">
+                <p>My go-to food in<br>most restaurants.</p>
+            </div>
+        </div>
+
+        <div class="card card3">
+            <i class="fa-solid fa-plane"></i>
+            <h5>Travelling</h5>
+            <div class="pra">
+                <p>My ultimate goal is to travel around Europe with my loved one.</p>
+            </div>
+        </div>
+     </div>
+</div>
+
+<!--footer-->
+<footer>
+    <p>Wan Afif</p>
+    <p>2115737</p>
+    <p>Webtech Section 6</p>
+    <div class="social">
+        <a href="https://www.facebook.com/wan.afif.18"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/wnafif/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/wan-afif-najmuddin-wan-mohd-syukri-583662222/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p class="end">Wan Afif</p>
+</footer>
+</body>
+</html>
